@@ -15,6 +15,39 @@ header{
 	    align-items: center;
 }
 
+
+h1, h2 {
+	color:#fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.main{
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+}
+
+.getstarted{
+	width: 280px;
+	height: 55px;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
+	display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+        margin-top: 34px;
+
+}
+
+.main-center{
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /*header p, .navbar{
 	display: inline-block;
 }*/
@@ -22,4 +55,8 @@ header{
 .navbar span{
 	display: inline-block;
 	color: #b6bdc5;
+}
+
+.navbar-item2, .navbar-item3{
+	margin-left: 58px;
 }
