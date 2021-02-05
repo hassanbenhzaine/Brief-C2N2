@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: hsl(218, 28%, 13%);
+	background-color: #1c2230;
 }
 
 header{
@@ -60,3 +60,10 @@ h1, h2 {
 .navbar-item2, .navbar-item3{
 	margin-left: 58px;
 }
+
+.details{
+	margin-top:170px;
+}
+
+
+
