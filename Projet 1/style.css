@@ -30,13 +30,13 @@ h1, h2 {
 .getstarted{
 	width: 280px;
 	height: 55px;
-	border-radius: 20px;
+	border-radius: 30px;
 	background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
 	display: flex;
     align-items: center;
-    /* text-align: center; */
     justify-content: center;
         margin-top: 34px;
+    color:#fff;
 
 }
 
