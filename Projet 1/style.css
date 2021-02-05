@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #1c2230;
+}
+
+header{
+	padding:80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	    align-items: center;
+}
+
+.main-center{
+	font-family: 'Raleway';
+}
+
+h1, h2 {
+	color:#fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.main{
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+}
+
+.getstarted{
+	width: 280px;
+	height: 55px;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+        margin-top: 34px;
+    color:#fff;
+
+}
+
+
+footer{
+	padding:200px 80px 95px 80px;
+	background-color: #0c1524;
+}
+
+.main-center{
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.navbar span{
+	display: inline-block;
+	color: #b6bdc5;
+}
+
+.navbar-item2, .navbar-item3{
+	margin-left: 58px;
+}
+
+.details{
+	margin-top:170px;
+}
+
+
+.grid-footer {
+	margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+  grid-template-areas:
+    "a a b c d e";
+    color:#fff;
+}
+
+.a { grid-area: a; 
+	display: flex;
+    flex-direction: row;}
+
+.b { grid-area: b; 
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spacez{
+	margin-top: 25px;
+}
+
+.c { grid-area: c; 
+display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.d { grid-area: d; 
+display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.e { grid-area: e; 
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+    justify-content: center;;}
+
+.round img{
+	width: 15px;
+	margin:5px;
+}
+
+.round{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #fff;
+    border-radius: 30px;
+}
+
+.supa{
+	margin-left:20px;
+}
+
+.a p {
+	margin-left:28px;
+
+}
+
+.a img{
+	height: 20px;
+
+}
+
+.b-item{
+	display: flex;
+	flex-direction: row;
+}
+
+.b-item img{
+	width: 20px;
+}
+
+.b-item p{
+	margin-left:20px;
+}
+.space{
+	margin-top:20px;
+}
