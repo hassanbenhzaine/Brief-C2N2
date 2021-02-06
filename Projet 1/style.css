@@ -5,6 +5,9 @@
 
 body{
 	background-color: #1c2230;
+	background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 850px;
 }
 
 header{
@@ -24,6 +27,11 @@ h1, h2 {
 	text-align: center;
 	margin-top: 50px;
 }
+
+h2{
+	font-weight: 400;
+    font-size: 25px;
+}
 .main{
 	align-items: center;
 	display:flex;
@@ -40,13 +48,15 @@ h1, h2 {
     justify-content: center;
         margin-top: 34px;
     color:#fff;
-
+font-weight: 700;
+    font-size: 16px;
 }
 
 
 footer{
 	padding:200px 80px 95px 80px;
 	background-color: #0c1524;
+	font-family: 'Open Sans';
 }
 
 .main-center{
@@ -61,6 +71,7 @@ footer{
 .navbar span{
 	display: inline-block;
 	color: #b6bdc5;
+	font-family: 'Raleway';
 }
 
 .navbar-item2, .navbar-item3{
@@ -100,22 +111,26 @@ display: flex;
 .c { grid-area: c; 
 display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: flex-end;}
 
 .d { grid-area: d; 
 display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: flex-end;}
 
 .e { grid-area: e; 
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-    justify-content: center;;}
+    justify-content: flex-end;}
+
+.getstarted:hover{
+	background-color: #fff;
+}
 
 .round img{
-	width: 15px;
-	margin:5px;
+	width: 13px;
+	margin:7px;
 }
 
 .round{
