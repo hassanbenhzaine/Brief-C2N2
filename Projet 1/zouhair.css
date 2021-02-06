@@ -1,0 +1,123 @@
+
+.zouhair{
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+    display:flex; 
+    flex-direction: row; 
+    justify-content:center;
+    align-items: center;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: 33px 0px;
+   
+   }
+   .elements{
+       padding: 40px;
+       display:flex; 
+   }
+   .element {
+       width: 30%;
+       font-size: 14px;
+       color: white;
+       padding: 20px;
+       background-color: hsl(219, 30%, 18%);
+       box-shadow: 5px 5px  hsl(226, 30%, 15%);
+   }
+   .box1{
+       margin-left: 15px;
+   }
+   .box2{
+       margin-left: 15px;
+   }
+   .border{
+       display: flex;
+       align-items: center;
+       
+   }
+   .border img{
+       border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       padding: 15px;
+   }
+   .name{
+       display: flex;
+       flex-direction: column;
+       margin-left: 20px;
+   }
+   
+   
+   /* ///////////   */
+   
+   
+   .bottom{
+       color: white;
+       font-size: 14px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       border-radius: 5px;
+       padding: 20px;
+       box-shadow: 3px 5px hsl(226, 30%, 15%);
+   }
+   .tiral{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: hsl(219, 30%, 18%); 
+       
+   }
+   .click{
+       width: 160px;
+       background-color: hsl(176, 68%, 64%);
+       border-radius: 10px;
+       padding: 10px;
+       cursor: pointer;
+       border:none;
+   } 
+   
+   .saisir{
+       width: 330px;
+       background-color: hsl(0, 0%, 100%);
+       border-radius: 10px;
+       text-align: center;
+       padding: 10px;
+       border:none;
+       
+   }
+   /*   meida at 750px      */
+   @media (max-width: 750px){
+   
+   .zouhair{
+       background-position: 60px 15px;
+   }
+   
+   .elements{
+       display: block;
+       padding: 60px;
+   }
+   .element{
+       width: 90%;
+   }
+   .box1{
+       margin-left:0;
+       margin-top: 15px;
+   }
+   .box2{
+       margin-left:0;
+       margin-top: 15px;
+   }
+   .bottom{
+       width: 70%;
+       justify-content: center;
+   }
+   .click {
+       width: 80%;
+       margin-top: 15px;
+   }
+   .saisir{
+       width: 72%;
+      
+   }
+   
+   }
