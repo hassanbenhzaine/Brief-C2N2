@@ -1,0 +1,85 @@
+
+.zouhair{
+ width: 100%;
+ background-color: hsl(218, 28%, 13%);
+ display:flex; 
+ flex-direction: row; 
+ justify-content:center;
+ align-items: center;
+ background-image: url(images/bg-quotes.png);
+ background-repeat: no-repeat;
+ /* background-size: 100% 100%; */
+ background-position: 50px 50px;
+
+}
+.elements{
+    padding: 80px;
+    display:flex; 
+}
+.element {
+    width: 30%;
+    font-size: 14px;
+    color: white;
+    padding: 40px;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 5px 5px  hsl(226, 30%, 15%);
+}
+.box1{
+    margin-left: 15px;
+}
+.box2{
+    margin-left: 15px;
+}
+.border{
+    display: flex;
+    align-items: center;
+    
+}
+.border img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+/* ///////////   */
+
+.tiral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.bottom{
+    /* z-index: -1; */
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 5px hsl(226, 30%, 15%);
+}
+.click{
+    width: 160px;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+} 
+.saisir{
+    width: 330px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
