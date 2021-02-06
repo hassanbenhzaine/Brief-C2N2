@@ -8,19 +8,18 @@
  align-items: center;
  background-image: url(images/bg-quotes.png);
  background-repeat: no-repeat;
- /* background-size: 100% 100%; */
- background-position: 50px 50px;
+ background-position: 33px 0px;
 
 }
 .elements{
-    padding: 80px;
+    padding: 40px;
     display:flex; 
 }
 .element {
     width: 30%;
     font-size: 14px;
     color: white;
-    padding: 40px;
+    padding: 20px;
     background-color: hsl(219, 30%, 18%);
     box-shadow: 5px 5px  hsl(226, 30%, 15%);
 }
@@ -37,8 +36,9 @@
 }
 .border img{
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
 }
 .name{
     display: flex;
@@ -49,15 +49,8 @@
 
 /* ///////////   */
 
-.tiral{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: hsl(219, 30%, 18%);
-}
 
 .bottom{
-    /* z-index: -1; */
     color: white;
     font-size: 14px;
     display: flex;
@@ -67,19 +60,64 @@
     padding: 20px;
     box-shadow: 3px 5px hsl(226, 30%, 15%);
 }
+.tiral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(219, 30%, 18%); 
+    
+}
 .click{
     width: 160px;
     background-color: hsl(176, 68%, 64%);
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
+    border:none;
 } 
+
 .saisir{
     width: 330px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     text-align: center;
     padding: 10px;
+    border:none;
     
 }
+/*   meida at 750px      */
+@media (max-width: 750px){
 
+.zouhair{
+    background-position: 60px 15px;
+}
+
+.elements{
+    display: block;
+    padding: 60px;
+}
+.element{
+    width: 90%;
+}
+.box1{
+    margin-left:0;
+    margin-top: 15px;
+}
+.box2{
+    margin-left:0;
+    margin-top: 15px;
+}
+.bottom{
+    width: 70%;
+    justify-content: center;
+}
+.click {
+    width: 80%;
+    margin-top: 15px;
+}
+.saisir{
+    width: 72%;
+   
+}
+
+}
