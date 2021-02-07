@@ -56,3 +56,16 @@ h3, p{
 .g { grid-area: g; }
 
 .h { grid-area: h; }
+
+   @media (max-width: 880px){
+.grid-soufiane{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "e"
+    "f"
+    "g"
+    "h";
+}
+
+   }

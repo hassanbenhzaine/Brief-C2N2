@@ -1,44 +1,30 @@
 
 .zouhair{
     background-color: hsl(218, 28%, 13%);
-<<<<<<< HEAD
-    padding: 180px 140px 360px 140px;
-    position: relative;
-    font-family: 'Raleway',sans-serif;
-   
-   }
-/* .quot{
-position: absolute;
-    left: -10px;
-    top: -35px;
-} */
-=======
-       padding: 180px 140px 360px 140px;
+       padding: 180px 0 360px 0;
            position: relative;
            font-family: 'Raleway',sans-serif;
+          display: flex;
+    justify-content: center;
    
    }
 .quot{
 position: absolute;
     left: -10px;
     top: -35px;
+
+
 }
->>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
+
+.name h4{
+  font-weight: 400;
+}
    .elements{
         position: relative;
        display:flex; 
        flex-direction: row;
    }
    .element {
-<<<<<<< HEAD
-   font-size: 14px;
-   color: white;
-   padding: 45px 26px 26px 26px;
-   background-color: hsl(219, 30%, 18%);
-   box-shadow: 5px 5px  hsl(226, 30%, 15%);
-   display: flex;
-   flex-direction: column;
-=======
        font-size: 14px;
        color: white;
        padding: 45px 26px 26px 26px;
@@ -46,7 +32,6 @@ position: absolute;
        box-shadow: 5px 5px  hsl(226, 30%, 15%);
            display: flex;
     flex-direction: column;
->>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
    }
 
    .border{
@@ -83,11 +68,7 @@ position: absolute;
    .tiral{
     color: #fff;
     border-radius: 10px;
-<<<<<<< HEAD
-    left: 0;
-=======
   left: 0;
->>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,13 +78,8 @@ position: absolute;
     bottom: -15%;
     margin:0 auto;
     width: 860px;
-<<<<<<< HEAD
-    padding:50px 75px 40px 75px;
-    text-align: center;
-=======
            padding:50px 75px 40px 75px;
            text-align: center;
->>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
        
    }
 .tiraltext{
@@ -118,6 +94,7 @@ position: absolute;
   gap: 40px;
   grid-template-areas:
     "x y z";
+    width: 80%;
 }
 
 .x { grid-area: x; }
@@ -130,36 +107,13 @@ position: absolute;
 .tiral form{
   margin-top: 40px;
   display: flex;
-<<<<<<< HEAD
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.tiralp1{
-    font-size: 40px;
-    font-weight: 700;
-}
-.tiralp2{
-   margin-top: 25px;
-}
-.click{
-   background-color: hsl(176, 68%, 64%);
-   border-radius: 30px;
-   padding: 10px;
-   cursor: pointer;
-   border:none;
-   width: 200px;
-   height:46px;
-   margin-left: 28px;
-=======
     flex-direction: row;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
    .tiralp1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
    }
 
@@ -175,37 +129,56 @@ position: absolute;
        width: 200px;
        height:46px;
        margin-left: 28px;
->>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
    } 
    
    .saisir{
        background-color: hsl(0, 0%, 100%);
        border-radius: 30px;
        text-align: left;
-       padding: 0 38px;
+       text-align: center;
        border:none;
        height:48px;
        width: 480px;
        
    }
-   /*   meida at 750px      */
-   @media (max-width: 750px){
+.main-center img{
+  width: 100%;
+}
+
+
+   @media (max-width: 1075px){
    
-   .zouhair{
-       background-position: 60px 15px;
-   }
-   
-   .elements{
-       display: block;
-       padding: 60px;
+.grid-tiral{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "x"
+    "y"
+    "z";
+}
+  
    }
 
-   .click {
-       width: 80%;
-       margin-top: 15px;
+
+   @media (max-width: 1300px){
+    .tiral{
+      width: initial;
+      margin: 0 10%;
+    }
    }
-   .saisir{
-   width: 72%;
+
+   @media (max-width: 1080px){
+ .tiral form{
+  flex-direction: column;
+   } 
+.click{
+  margin-left: 0;
+  margin-top: 28px;
+  width: 100%;
+
+ }
+
+ .saisir{
+  width: 100%;
+ }
 }
-   
-   }
