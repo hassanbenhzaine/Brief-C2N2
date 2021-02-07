@@ -58,6 +58,7 @@ position: absolute;
        box-shadow: 3px 5px hsl(226, 30%, 15%);
    }
    .tiral{
+    color: #fff;
     border-radius: 10px;
   left: 0;
     display: flex;
