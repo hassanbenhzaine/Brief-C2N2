@@ -1,6 +1,7 @@
 
 .zouhair{
     background-color: hsl(218, 28%, 13%);
+<<<<<<< HEAD
     padding: 180px 140px 360px 140px;
     position: relative;
     font-family: 'Raleway',sans-serif;
@@ -11,12 +12,25 @@ position: absolute;
     left: -10px;
     top: -35px;
 } */
+=======
+       padding: 180px 140px 360px 140px;
+           position: relative;
+           font-family: 'Raleway',sans-serif;
+   
+   }
+.quot{
+position: absolute;
+    left: -10px;
+    top: -35px;
+}
+>>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
    .elements{
         position: relative;
        display:flex; 
        flex-direction: row;
    }
    .element {
+<<<<<<< HEAD
    font-size: 14px;
    color: white;
    padding: 45px 26px 26px 26px;
@@ -24,6 +38,15 @@ position: absolute;
    box-shadow: 5px 5px  hsl(226, 30%, 15%);
    display: flex;
    flex-direction: column;
+=======
+       font-size: 14px;
+       color: white;
+       padding: 45px 26px 26px 26px;
+       background-color: hsl(219, 30%, 18%);
+       box-shadow: 5px 5px  hsl(226, 30%, 15%);
+           display: flex;
+    flex-direction: column;
+>>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
    }
 
    .border{
@@ -60,7 +83,11 @@ position: absolute;
    .tiral{
     color: #fff;
     border-radius: 10px;
+<<<<<<< HEAD
     left: 0;
+=======
+  left: 0;
+>>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,8 +97,13 @@ position: absolute;
     bottom: -15%;
     margin:0 auto;
     width: 860px;
+<<<<<<< HEAD
     padding:50px 75px 40px 75px;
     text-align: center;
+=======
+           padding:50px 75px 40px 75px;
+           text-align: center;
+>>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
        
    }
 .tiraltext{
@@ -98,6 +130,7 @@ position: absolute;
 .tiral form{
   margin-top: 40px;
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   width: 100%;
   justify-content: center;
@@ -119,6 +152,30 @@ position: absolute;
    width: 200px;
    height:46px;
    margin-left: 28px;
+=======
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+   .tiralp1{
+    font-size: 40px;
+    font-weight: 700;
+   }
+
+   .tiralp2{
+    margin-top: 25px;
+   }
+   .click{
+       background-color: hsl(176, 68%, 64%);
+       border-radius: 30px;
+       padding: 10px;
+       cursor: pointer;
+       border:none;
+       width: 200px;
+       height:46px;
+       margin-left: 28px;
+>>>>>>> 958d16098c19b1c6eca0e7089e06ea542592bf1a
    } 
    
    .saisir{
