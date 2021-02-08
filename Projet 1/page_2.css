@@ -1,16 +1,18 @@
  html body {
-    display:flex; 
+    font-family: 'Raleway';
+     display:flex; 
     flex-direction:column; 
-    justify-content:center; 
+    justify-content:center;
     background-color: #0c1524;
   
  }
- /* *{
+ {
     padding: 0;
     margin:0;
- } */
+ } 
 
 .topheader{
+    font-family: 'Raleway';
     width: 100%;
     display:flex; 
     flex-direction:row;
@@ -32,6 +34,7 @@
     padding: 20px;
 }
 .search{
+    font-family: 'Raleway';
     width: 500px;
     border: none;
     padding: 15px;
@@ -40,11 +43,12 @@
     background-color: rgb(255, 255, 255);
 }
 .click{
-    width: 90px;
-    padding: 10px;
+    font-family: 'Raleway';
+    width: 100px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
-    background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
+    background-color:  #3facd5;
     cursor: pointer;
 }
 .move{
@@ -52,6 +56,7 @@
 }
 /*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
 .topquestions{
+    font-family: 'Raleway';
     background-color: #0c1524; 
     color: white;
     display:flex; 
@@ -61,7 +66,7 @@
 /*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
 
 .main{
-
+    
     background-color: #0c1524;
     background-image: url(file:///C:/Users/Youcode/Desktop/Brief-C2N2/Projet%201/images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
@@ -80,13 +85,14 @@
     padding: 50px;    
 }
 .a{
+    font-family: 'Raleway';
     padding: 10px;
     display:flex; 
     flex-direction:row; 
 }
 .btn2{
     padding: 20px;
-    background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
+    background-color:  #3facd5;
     width: 190px;
     border:none;
     border-radius: 5px;
@@ -104,7 +110,7 @@
 .aa{
     color: white;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway';
     padding: 5px;
 }
 /*///////////////////////////////////////////////*//*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
@@ -123,7 +129,7 @@
     font-size: 17px;
 }
 .us{
-    background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
+    background-color:  #3facd5;
     margin-top: 20px;
     box-shadow: 2px 2px 4px;
     font-size: 14px;
@@ -234,7 +240,9 @@ align-items: flex-start;
 .topheader{
     width: 100%;
 }
-
+.main{
+    background-image: none;
+}
 .btn2{
 width: 80%;
 }
@@ -260,7 +268,15 @@ width: 80%;
 }
 
 }
+@media  (max-width: 650px){
 
+    .botchoises{
+        display:block;
+        margin-left: 200px;
+    }
+    .main{
+        background-image: none;
+    }
+}
 
 /*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
-
