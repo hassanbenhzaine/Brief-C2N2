@@ -8,7 +8,20 @@ body{
 	background-image: url(images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     background-position: 0px 850px;
-    width: fit-content;
+
+}
+
+
+/* unvisited link */
+a:link {
+  color: #fff;
+}
+a{
+	display: block;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
 }
 
 header{
@@ -65,6 +78,7 @@ footer{
 	display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 80px;
 }
 
 
@@ -204,4 +218,12 @@ align-items: flex-start;
    footer .logo{
    	margin-top: 40px;
    }
+}
+
+
+@media (max-width: 880px){
+	.main-center{
+		width: initial;
+	}
+
 }
