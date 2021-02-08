@@ -3,7 +3,18 @@
 	padding: 0;
 }
 
-
+/* unvisited link */
+a:link {
+  color: #fff;
+}
+a{
+	    text-decoration: none;
+	display: block;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
 .tryitnow{
 	background-color: #fff;
 	color:#0b2a24;
