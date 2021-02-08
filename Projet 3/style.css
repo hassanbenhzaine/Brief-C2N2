@@ -9,8 +9,11 @@
 	color:#0b2a24;
 	width: 200px;
 	height: 48px;
+	margin-left: 30px;
 
 }
+
+
 .tryitnow,.pink{
 		display: flex;
     align-items: center;
@@ -149,7 +152,7 @@ h1{
 	align-items: center;
 	    display: flex;
     flex-direction: row;
-    padding: 0 0 80px 0;
+    padding: 0 80px 80px 80px;
 }
 
 
@@ -209,7 +212,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 0;
+    padding: 80px;
 }
 
 .navbar img{
@@ -222,7 +225,7 @@ header{
     background-repeat: no-repeat;
 background-position: top;
 		font-family: 'Poppins',sans-serif;
-		padding:0 80px;
+
 }
 
 .grid-footer {
@@ -277,6 +280,10 @@ align-items: flex-start;
     "c"
     "d"
     "e";
+    margin:45px 0 0 0 ;
+}
+.copyright{
+	text-align: center;
 }
 
 .b, .c{
@@ -318,7 +325,7 @@ align-items: flex-start;
 
 	.content{
 		flex-direction:column;
-		width:initial;
+		    width: 100%;
 	}
 	.first, .middle, .last{
 		padding: 55px 45px;
@@ -346,4 +353,24 @@ align-items: flex-start;
     .contentleft{
     	margin: 0;
     }
+}
+
+@media only screen and (max-width: 550px) {
+	.pink2{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.navbar img{
+		width: 125px;
+	}
+
+	.navbar{
+		padding: 80px 30px;
+	}
+	.tryitnow{
+		width: 125px;
+    height: 30px;
+	}
 }
