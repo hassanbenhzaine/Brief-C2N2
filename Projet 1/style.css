@@ -90,13 +90,13 @@ footer{
 	font-family: 'Raleway';
 }
 
-.navbar-item2, .navbar-item3{
+/* .navbar-item2, .navbar-item3{
 	
-}
+} */
 
 
 .navbar{
-		width: 280px;
+	width: 280px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -108,21 +108,22 @@ footer{
 
 .grid-footer {
 	margin-top: 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 50px;
-  grid-template-areas:
-    "a a b c d e";
-    color:#fff;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	gap: 50px;
+	grid-template-areas: "a a b c d e";
+	color:#fff;
 }
 
-.a { grid-area: a; 
+.a { 
+	grid-area: a; 
 	display: flex;
     flex-direction: row;}
 
-.b { grid-area: b; 
-display: flex;
+.b { 
+	grid-area: b; 
+	display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -132,19 +133,19 @@ display: flex;
 }
 
 .c { grid-area: c; 
-display: flex;
+	display: flex;
     flex-direction: column;
     align-items: flex-end;}
 
 .d { grid-area: d; 
-display: flex;
+	display: flex;
     flex-direction: column;
     align-items: flex-end;}
 
 .e { grid-area: e; 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
     justify-content: flex-end;}
 
 .getstarted:hover{
@@ -199,7 +200,7 @@ align-items: flex-start;
 
 
 .grid-footer {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr;			
   grid-template-rows: auto;
   grid-template-areas:
     "a"
