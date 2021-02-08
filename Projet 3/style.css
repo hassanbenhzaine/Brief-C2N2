@@ -9,8 +9,11 @@
 	color:#0b2a24;
 	width: 200px;
 	height: 48px;
+	margin-left: 30px;
 
 }
+
+
 .tryitnow,.pink{
 		display: flex;
     align-items: center;
@@ -322,7 +325,7 @@ align-items: flex-start;
 
 	.content{
 		flex-direction:column;
-		width:initial;
+		    width: 100%;
 	}
 	.first, .middle, .last{
 		padding: 55px 45px;
@@ -360,6 +363,14 @@ align-items: flex-start;
 
 @media only screen and (max-width: 650px) {
 	.navbar img{
-		width: 40%;
+		width: 125px;
+	}
+
+	.navbar{
+		padding: 80px 30px;
+	}
+	.tryitnow{
+		width: 125px;
+    height: 30px;
 	}
 }
