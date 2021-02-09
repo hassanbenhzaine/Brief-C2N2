@@ -8,7 +8,6 @@ body{
 }
 
 
-/* unvisited link */
 .centerino a:link {
   color: #fff;
 }
@@ -16,7 +15,6 @@ a{
 	    text-decoration: none;
 	display: block;
 }
-/* mouse over link */
 .centerino a:hover {
   color: hotpink;
 }
@@ -91,10 +89,6 @@ footer{
 	color: #b6bdc5;
 	font-family: 'Raleway';
 }
-
-/* .navbar-item2, .navbar-item3{
-	
-} */
 
 
 .navbar{
@@ -241,3 +235,353 @@ footer{
 	}
 }
 
+/* zouhair zouhair zouhair zouhair zouhair zouhair zouhair zouhair zouhair zouhair */
+
+.zouhair{
+    background-color: hsl(218, 28%, 13%);
+       padding: 180px 0 360px 0;
+           position: relative;
+           font-family: 'Raleway',sans-serif;
+          display: flex;
+    justify-content: center;
+   
+   }
+.quot{
+position: absolute;
+    left: -10px;
+    top: -35px;
+
+
+}
+
+
+form{
+  font-family: 'Raleway',sans-serif;
+}
+.name h4{
+  font-weight: 400;
+}
+   .elements{
+        position: relative;
+       display:flex; 
+       flex-direction: row;
+   }
+   .element {
+       font-size: 14px;
+       color: white;
+       padding: 45px 26px 26px 26px;
+       background-color: hsl(219, 30%, 18%);
+       box-shadow: 5px 5px  hsl(226, 30%, 15%);
+           display: flex;
+    flex-direction: column;
+   }
+
+   .border{
+       display: flex;
+       align-items: center;
+       
+   }
+   .border img{
+       border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       padding: 15px;
+   }
+   .name{
+       display: flex;
+       flex-direction: column;
+       margin-left: 8px;
+   }
+   
+   
+   /* ///////////   */
+   
+   
+   .bottom{
+       color: white;
+       font-size: 14px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       border-radius: 5px;
+       padding: 20px;
+       box-shadow: 3px 5px hsl(226, 30%, 15%);
+   }
+   .tiral{
+    color: #fff;
+    border-radius: 10px;
+  left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(219, 30%, 18%);
+    position: absolute;
+    right: 0;
+    bottom: -15%;
+    margin:0 auto;
+    width: 860px;
+           padding:50px 75px 40px 75px;
+           text-align: center;
+       
+   }
+.tiraltext{
+  width: 80%;
+}
+
+
+.grid-tiral {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 40px;
+  grid-template-areas:
+    "x y z";
+    width: 80%;
+}
+
+.x { grid-area: x; }
+
+.y { grid-area: y; }
+
+.z { grid-area: z; }
+
+
+.tiral form{
+  margin-top: 40px;
+  display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+   .tiralp1{
+    font-size: 30px;
+    font-weight: 700;
+   }
+
+   .tiralp2{
+    margin-top: 25px;
+   }
+   .click{
+       background-color: hsl(176, 68%, 64%);
+       border-radius: 30px;
+       padding: 10px;
+       cursor: pointer;
+       border:none;
+       width: 200px;
+       height:46px;
+       margin-left: 28px;
+       color: #fff;
+       font-weight: 700;
+   } 
+   
+   .saisir{
+       background-color: hsl(0, 0%, 100%);
+       border-radius: 30px;
+       text-align: left;
+padding-left: 35px;
+       border:none;
+       height:48px;
+       width: 445px;
+       
+   }
+.main-center img{
+  width: 100%;
+}
+
+
+   @media (max-width: 1075px){
+   
+.grid-tiral{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "x"
+    "y"
+    "z";
+}
+  
+   }
+
+
+   @media (max-width: 1300px){
+    .tiral{
+      width: initial;
+      margin: 0 10%;
+    }
+   }
+
+   @media (max-width: 1080px){
+ .tiral form{
+  flex-direction: column;
+   } 
+.click{
+  margin-left: 0;
+  margin-top: 28px;
+  width: 100%;
+
+ }
+
+ .saisir{
+  width: 100%;
+ }
+}
+
+
+   @media (max-width: 800px){
+    .tiraltext {
+    width: 100%;
+}
+
+   }
+/* zouhair zouhair zouhair zouhair zouhair zouhair zouhair zouhair zouhair zouhair */
+
+/* hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza  */
+
+
+.image{
+   width: 50%;
+}
+
+.hamza{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+}
+.title{
+font-size: 45px;
+}
+
+.area{
+    margin-left: 58px;
+}
+
+.area p{
+    margin-top: 25px;
+}
+
+.seemore img{
+    margin-left: 8px;
+}
+
+.seemore{
+border-bottom: 1px solid #5fdfd2;
+padding-bottom: 4px;
+width: max-content;
+    color: #5fdfd2;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid-container{
+    align-items: center;
+    color: white;
+    font-family: raleway;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    
+}
+
+
+   @media (max-width: 1075px){
+    .grid-container{
+        flex-direction: column;
+    }
+
+    .area{
+        margin-top:105px;
+        margin-left:0;
+    }
+
+    .title{
+        font-size: 38px;
+    }
+
+    .image{
+        width: 100%;
+    }
+   }
+/* hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza  */
+
+/* soufian soufian soufian soufian soufian soufian soufian soufian soufian soufian */
+.soufian{
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+ 
+}
+.haut, .bas{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.boxer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#fff;
+	text-align: center;
+
+}
+
+.boxer h3{
+	margin-top: 32px;
+}
+
+.boxer p{
+	margin-top: 12px;
+}
+
+.boxer img{
+	width: 80px;
+}
+}
+h3, p{
+    color:#fff;
+}
+
+
+.grid-soufiane {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 100px;
+  grid-template-areas:
+    "e f"
+    "g h";
+    width: 60%;
+    margin:160px 0 140px 0;
+}
+
+.e { grid-area: e; }
+
+.f { grid-area: f; }
+
+.g { grid-area: g; }
+
+.h { grid-area: h; }
+
+   @media (max-width: 880px){
+.grid-soufiane{
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "e"
+    "f"
+    "g"
+    "h";
+}
+  .grid-soufiane{
+    width: initial;
+    margin-left:80px;
+    margin-right: 80px;
+  }
+   }
+
+
+/* soufian soufian soufian soufian soufian soufian soufian soufian soufian soufian */
