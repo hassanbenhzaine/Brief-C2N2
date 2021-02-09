@@ -142,10 +142,11 @@ h1{
 	height:56px;
 	padding: 0px 20px;
 }
-}
+
 
 .ready p{
-	font-size: 30px;
+
+    font-size: 30px;
 }
 .ready{
 	text-align: center;
@@ -408,8 +409,9 @@ align-items: flex-start;
 		font-size: 22px;
 	}
 	.first img, .last img, .middle div {
-    margin-top: 80px;}
+    margin-top: 80px;
+}
     .start img {
     margin-top: 80px;}
-    
+
 }
