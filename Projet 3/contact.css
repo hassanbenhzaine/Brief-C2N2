@@ -23,6 +23,7 @@ button{
 	border-radius: 20px;
 	background-color: rgba(22, 136, 236, 0.384);
     border: none;
+	font-family: 'Poppins', sans-serif;
 }
 .bouttona{
 	background-color:white;
@@ -124,8 +125,9 @@ a:link {
 	color: #fff;
   }
   a{
-		  text-decoration: none;
-	  display: block;
+	text-decoration: none;
+    display: block;
+    color: #fff;
   }
   /* mouse over link */
   a:hover {
