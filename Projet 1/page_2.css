@@ -50,7 +50,7 @@
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color:  #3facd5;
+    background-color:  hsl(176, 68%, 64%);
     cursor: pointer;
 }
 .move{
@@ -93,7 +93,7 @@
 }
 .btn2{
     padding: 20px;
-    background-color:  #3facd5;
+    background-color:  hsl(176, 68%, 64%);
     width: 190px;
     border:none;
     border-radius: 5px;
@@ -130,7 +130,7 @@
     font-size: 17px;
 }
 .us{
-    background-color:  #3facd5;
+    background-color:  hsl(176, 68%, 64%);
     margin-top: 20px;
     box-shadow: 2px 2px 4px;
     font-size: 14px;
