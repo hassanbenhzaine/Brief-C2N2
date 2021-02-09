@@ -5,10 +5,6 @@
 
 body{
 	background-color: #1c2230;
-	background-image: url(images/bg-curvy-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: 0px 850px;
-
 }
 
 
@@ -35,7 +31,9 @@ header{
 
 .main-center{
 	font-family: 'Raleway';
+
 }
+
 
 h1, h2 {
 	color:#fff;
@@ -51,6 +49,10 @@ h2{
 	align-items: center;
 	display:flex;
 	flex-direction: column;
+		background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 100%;
 }
 
 .getstarted{
@@ -229,3 +231,13 @@ footer{
 	}
 
 }
+
+@media (max-width: 750px){
+	.main{
+		background-image: url(images/bg-curvy-mobile.svg);
+	}
+	h1{
+		font-size: 45px;
+	}
+}
+

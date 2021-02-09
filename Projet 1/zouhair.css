@@ -16,6 +16,10 @@ position: absolute;
 
 }
 
+
+form{
+  font-family: 'Raleway',sans-serif;
+}
 .name h4{
   font-weight: 400;
 }
@@ -129,16 +133,18 @@ position: absolute;
        width: 200px;
        height:46px;
        margin-left: 28px;
+       color: #fff;
+       font-weight: 700;
    } 
    
    .saisir{
        background-color: hsl(0, 0%, 100%);
        border-radius: 30px;
        text-align: left;
-       text-align: center;
+padding-left: 35px;
        border:none;
        height:48px;
-       width: 480px;
+       width: 445px;
        
    }
 .main-center img{
