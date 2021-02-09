@@ -271,13 +271,13 @@ width: 80%;
 }
 @media  (max-width: 650px){
 
-    .botchoises{
-        display:block;
-        margin-left: 120px;
-    }
-    .main{
-        background-image: none;
-    }
+.botchoises{
+    display:block;
+    margin-left: 120px;
+}
+.main{
+    background-image: none;
+}
 }
 
 /*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
