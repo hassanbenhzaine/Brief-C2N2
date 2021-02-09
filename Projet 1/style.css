@@ -7,7 +7,9 @@ body{
 	background-color: #1c2230;
 }
 
-
+.centerino a:visited{
+  color: #fff;
+}
 .centerino a:link {
   color: #fff;
 }
