@@ -26,9 +26,7 @@ font-size: 45px;
 }
 
 .seemore{
-border-bottom: 1px solid #5fdfd2;
-padding-bottom: 4px;
-width: max-content;
+    text-decoration: underline;
     color: #5fdfd2;
     margin-top: 30px;
     display: flex;
