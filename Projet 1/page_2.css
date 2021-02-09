@@ -6,17 +6,18 @@
     background-color: #0c1524;
   
  }
- {
+ *{
     padding: 0;
     margin:0;
+ }
+ .topheadr-logo{
+     display: flex;
+     flex-direction:row;
+     justify-content: space-between;
  } 
 
 .topheader{
     font-family: 'Raleway';
-    width: 100%;
-    display:flex; 
-    flex-direction:row;
-    justify-content: space-between;
     padding: 10px;
     background-color: #181f2b;
 }
@@ -27,6 +28,7 @@
     flex-direction:column; 
     justify-content:center;
     align-items: center;
+    margin-top: 90px;
 
 }
 .help{
@@ -68,7 +70,7 @@
 .main{
     
     background-color: #0c1524;
-    background-image: url(file:///C:/Users/Youcode/Desktop/Brief-C2N2/Projet%201/images/bg-curvy-desktop.svg);
+    background-image: url(images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     background-size: 80% 100%;
     background-position: top;
@@ -76,7 +78,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
 }
 .buttonsection{
     display:flex; 
@@ -255,7 +256,7 @@ width: 80%;
     text-align: center;
 }
 .search{
-    width: 200px;
+    width: 300px;
 }
 .a2move{
     
@@ -272,7 +273,7 @@ width: 80%;
 
     .botchoises{
         display:block;
-        margin-left: 200px;
+        margin-left: 120px;
     }
     .main{
         background-image: none;
