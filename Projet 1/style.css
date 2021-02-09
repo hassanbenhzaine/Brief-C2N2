@@ -241,10 +241,10 @@ footer{
 
 .zouhair{
     background-color: hsl(218, 28%, 13%);
-       padding: 180px 0 360px 0;
-           position: relative;
-           font-family: 'Raleway',sans-serif;
-          display: flex;
+    padding: 180px 0 360px 0;
+    position: relative;
+    font-family: 'Raleway',sans-serif;
+    display: flex;
     justify-content: center;
    
    }

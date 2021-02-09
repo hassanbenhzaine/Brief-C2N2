@@ -1,19 +1,14 @@
  html body {
     font-family: 'Raleway';
-     display:flex; 
-    flex-direction:column; 
-    justify-content:center;
     background-color: #0c1524;
+    width: fit-content;
   
  }
- *{
-    padding: 0;
-    margin:0;
- }
+
  .topheadr-logo{
-     display: flex;
-     flex-direction:row;
-     justify-content: space-between;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
  } 
 
 .topheader{
@@ -24,9 +19,9 @@
 
 .botheader{
     background-color: #0c1524;
-    display:flex; 
-    flex-direction:column; 
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 90px;
 
@@ -46,11 +41,11 @@
 }
 .click{
     font-family: 'Raleway';
-    width: 100px;
+    width: 140px;
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color:  hsl(176, 68%, 64%);
+    background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
     cursor: pointer;
 }
 .move{
@@ -59,10 +54,10 @@
 /*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
 .topquestions{
     font-family: 'Raleway';
-    background-color: #0c1524; 
+    background-color: #0c1524;
     color: white;
-    display:flex; 
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
 /*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
@@ -74,28 +69,26 @@
     background-repeat: no-repeat;
     background-size: 80% 100%;
     background-position: top;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   flex-direction: column;
+   align-items: center;
 }
 .buttonsection{
-    display:flex; 
-    flex-direction:row; 
-    justify-content:center;
-    padding: 50px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px   
 }
-.a{
+.ihab{
     font-family: 'Raleway';
-    padding: 10px;
-    display:flex; 
-    flex-direction:row; 
+    display: flex; 
 }
 .btn2{
     padding: 20px;
-    background-color:  hsl(176, 68%, 64%);
-    width: 190px;
-    border:none;
+    background-color: hsl(176, 68%, 64%);
+    width: 450px;
+    margin-top: 15px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -104,7 +97,6 @@
 }
 .botchoises{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding: 20px;
 }
@@ -116,24 +108,22 @@
 }
 /*///////////////////////////////////////////////*//*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
 .contact_bar{
-    width: 100%;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    text-align: center;
+   background-color: #000000;
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   text-align: center;
 }
 .contact_area{
     color: white;
     font-size: 17px;
 }
 .us{
-    background-color:  hsl(176, 68%, 64%);
+    width: 200px;
+    background-color: hsl(176, 68%, 64%);
     margin-top: 20px;
-    box-shadow: 2px 2px 4px;
-    font-size: 14px;
+    box-shadow: -8px 7px 17px gray;
+    font-size: 22px;
 }
 
 footer{
@@ -234,23 +224,17 @@ align-items: flex-start;
 /*//////////////////////////////////////*/
 @media (max-width: 850px){
 
-.a{
+.ihab{
     display: block;
-    width: 80%;
-}
-.topheader{
-    width: 100%;
-}
-.main{
-    background-image: none;
-}
-.btn2{
-width: 80%;
+    width: 500px;
 }
 
 .main{
-    align-items: unset;
-    justify-content: unset;
+    background-image: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .help{
     text-align: center;
@@ -265,7 +249,8 @@ width: 80%;
 }
 
 .buttonsection{
-    width: 100%;
+    width: 400px;
+    display: unset;
 }
 
 }
@@ -273,7 +258,6 @@ width: 80%;
 
 .botchoises{
     display:block;
-    margin-left: 120px;
 }
 .main{
     background-image: none;
