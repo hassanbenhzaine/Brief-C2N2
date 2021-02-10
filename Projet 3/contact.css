@@ -47,11 +47,9 @@ main{
 }
 .fatih{
 	display: flex;
-    justify-content: center;
+    justify-content: space-around;
 	align-self: center;
 }
-.part1{
-    margin-right: 114px;}
 .fill{
 	height: 100px;
 	width: 250px;
@@ -213,4 +211,20 @@ main{
   .space {
 	  margin-top: 20px;
 	  align-items: center;
+  }
+  @media (max-width:1000px) {
+body{
+	width: fit-content;
+}
+  }
+  @media (max-width:500px){
+	/*.fatih{
+		display: block;
+		justify-content: center;
+		align-self: center;
+	}
+	.part1{
+		margin-right: 0;
+	}*/
+
   }
