@@ -215,6 +215,11 @@ main{
 	  margin-top: 20px;
 	  align-items: center;
   }
+  @media (max-width:1066px){
+	.part1{
+		margin-right: 20px;
+	}
+  }
   @media (max-width:1000px) {
 body{
 	width: fit-content;
@@ -284,6 +289,7 @@ body{
 	  }
 	  .copyright{
 		  text-align: center;
+		  font-size: 19px;
 	  }
 	  .b, .c{
 		align-items: flex-start;
@@ -291,6 +297,13 @@ body{
 	
 	.d{
 		justify-content: center;
+	}
+	.b-item p {
+		margin-left: 20px;
+		font-size: 25px;
+	}
+	.a{
+		font-size: 25px;
 	}
 
   }
