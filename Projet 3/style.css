@@ -23,7 +23,7 @@ a:hover {
 	width: 200px;
 	height: 48px;
 	margin-left: 30px;
-
+cursor: pointer;
 }
 
 
@@ -120,6 +120,7 @@ h1{
 .pink{
 	background-color: #fe52c0;
 	color: #fff;
+	cursor: pointer;
 }
 
 .pink1{
