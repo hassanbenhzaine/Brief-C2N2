@@ -27,6 +27,7 @@ button{
 	font-family: 'Poppins', sans-serif;
 }
 .bouttona{
+	cursor: pointer;
 	background-color:white;
 	box-shadow: 0 0 20px 2px #8080801f;
 }
@@ -83,11 +84,13 @@ main{
     border-radius: 10px;
     width: 264px;
 	box-shadow: 0 0 20px 2px #8080801f;
+	cursor: pointer;
 }
 .bouttonc{
 	background-color: hsl(322, 100%, 66%);
 	color: white;
 	margin-top: 29px;
+	cursor: pointer;
 }
 .name,.email ,.phone,.message{
 	margin-bottom: 10px;
