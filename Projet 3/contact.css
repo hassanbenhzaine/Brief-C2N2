@@ -5,6 +5,7 @@
 html{
 	font-family: 'Poppins', sans-serif;
 }
+/*header*/
 header{
 	background: url(images/bg-hero-desktop.svg);
 	background-color:hsl(193, 100%, 96%);
@@ -29,30 +30,12 @@ button{
 	background-color:white;
 	box-shadow: 0 0 20px 2px #8080801f;
 }
-.bouttonb{
-	border-bottom-right-radius: 25px !important;
-    border-radius: 10px;
-    width: 264px;
-	box-shadow: 0 0 20px 2px #8080801f;
-}
-.bouttonc{
-	background-color: hsl(322, 100%, 66%);
-	color: white;
-	margin-top: 29px;
-}
+
 .bouttona:hover{
 	background-color: rgba(22, 136, 236, 0.384);
 }
-.bouttonb:hover{
-	background-color: rgba(20, 96, 161, 0.384);
-}
-.bouttonc:hover{
-	background-color:hsla(322, 89%, 75%, 0.795) ;
-}
-.titre{
-	text-align: center;
-	margin-bottom: 70px;
-}
+
+/*main*/
 main{
 	justify-content: center;
 	align-items: center;
@@ -60,11 +43,14 @@ main{
 	height: 800px;
 
 }
+.titre{
+	text-align: center;
+	margin-bottom: 70px;
+}
 .fatih{
 	display: flex;
     justify-content: center;
 	align-self: center;
-	position: relative;
 }
 .part1{
     margin-right: 114px;}
@@ -90,6 +76,23 @@ main{
 	font-family: 'Poppins', sans-serif;
 	border-radius: 10px;
 }
+.bouttonb:hover{
+	background-color: rgba(20, 96, 161, 0.384);
+}
+.bouttonc:hover{
+	background-color:hsla(322, 89%, 75%, 0.795) ;
+}
+.bouttonb{
+	border-bottom-right-radius: 25px !important;
+    border-radius: 10px;
+    width: 264px;
+	box-shadow: 0 0 20px 2px #8080801f;
+}
+.bouttonc{
+	background-color: hsl(322, 100%, 66%);
+	color: white;
+	margin-top: 29px;
+}
 .name,.email ,.phone,.message{
 	margin-bottom: 10px;
 }
@@ -101,12 +104,11 @@ main{
 }
 .cader{
 	background-color: white;
-    
-    position: absolute ;
+    position: relative;
     text-align: center;
-	padding: 43px 0 50px 0;
+    padding: 43px 0 50px 0;
     margin: auto;
-    bottom: -102%;
+    top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,60 +118,12 @@ main{
     WIDTH: 750px;
     border-radius: 20px;
 }
-
-	
-
 }
-/* unvisited link */
-a:link {
-	color: #fff;
-  }
-  a{
-	text-decoration: none;
-    display: block;
-    color: #fff;
-  }
-  /* mouse over link */
-  a:hover {
-	color: hotpink;
-  }
- 
-  .pink,h2{
-	  margin-top: 34px;
-  }
-  
-  
+/*footer*/
+
   .spacex{
 	  margin-top: 40px;
-  }
-  
-  
-  .pink{
-	  background-color: #fe52c0;
-	  color: #fff;
-  }
-  
-  .pink1{
-		  font-size: 13px;
-	  width: 280px;
-	  height:56px;
-	  font-family: 'Open Sans';
-	  font-weight: 700;
-  }
-  
-  .pink1:hover, .pink2:hover{
-	  background-color: #fe52c094;
-  }
-  
-  
-  .start{
-	  align-items: center;
-		  display: flex;
-	  flex-direction: row;
-	  padding: 0 80px 80px 80px;
-  }
-  
-  
+  }  
   .round img{
 	  width: 13px;
 	  margin:7px;
@@ -212,12 +166,6 @@ a:link {
   .b-item p{
 	  margin-left:20px;
   }
-  
-  .start img{
-	  width: 50%;
-  }
-  
-  
   .grid-footer {
 	  margin: 45px 0 48px 0;
 	display: grid;
@@ -229,32 +177,42 @@ a:link {
   }
   .a { grid-area: a;
    }
-  
-  
-  
   .b { grid-area: b; 
-  display: flex;
+      display: flex;
 	  flex-direction: column;
 	  align-items: center;}
   
   .c { grid-area: c; 
-  display: flex;
+      display: flex;
 	  flex-direction: column;
 	  align-items: center;}
   
   .d { grid-area: d; 
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
   }
   
   
   .a img {
 	  height: 20px;
   }
+  a:link {
+	color: #fff;
+  }
+  a{
+	text-decoration: none;
+    display: block;
+    color: #fff;
+  }
+  a:link {
+	color: #fff;
+  }
+  a:hover {
+	color: hotpink;
+  } 
   
   .space {
 	  margin-top: 20px;
-  
 	  align-items: center;
   }
