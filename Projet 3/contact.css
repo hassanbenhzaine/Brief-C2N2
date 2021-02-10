@@ -8,10 +8,10 @@ html{
 /*header*/
 header{
 	background: url(images/bg-hero-desktop.svg);
-	background-color:hsl(193, 100%, 96%);
-	height: 90px;
-    padding: 60px;
-    border-bottom-right-radius: 160px;
+    background-color: hsl(193, 100%, 96%);
+    height: 41px;
+    padding: 52px 20px 36px 20px;
+    border-bottom-right-radius: 65px;
 }
 .navbar{
 	display: flex;
