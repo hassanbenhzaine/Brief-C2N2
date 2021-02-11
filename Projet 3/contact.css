@@ -138,6 +138,8 @@ main{
 	  margin-left:20px;
   }
   .round{
+	width: 20px;
+    height: 20px;
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
@@ -221,11 +223,20 @@ main{
 	  margin-top: 20px;
 	  align-items: center;
   }
- /* @media (max-width:1066px){
-	.part1{
-		margin-right: 20px;
-	}
-  }*/
+  .round:hover {
+    border: 1px solid #fe52c0;
+}
+.round svg {
+    width: 13px;
+    height: auto;
+}
+
+.souf:hover svg path,
+.souf:hover{
+	fill: #fe52c0;
+	color: #fe52c0;
+} 
+
   @media (max-width:1000px) {
 .part1{
 	margin-right: 20px;
@@ -471,6 +482,9 @@ main{
 	}
 	.bouttonc{
 		width: 148px;
+		width: 148px;
+		font-size: 10px;
+		height: 36px
 	}
 	.copyright{
 		font-size: 8px;
@@ -488,5 +502,13 @@ main{
 	width: 162px;
   }
   }
+  @media (max-width:427px){
+
+	.part1 img {
+		width: 300px;
+	}
+
+	 {
+
 
  
