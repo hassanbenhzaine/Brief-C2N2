@@ -18,7 +18,7 @@ body {
 .topheader{
     font-family: 'Raleway';
     padding: 10px;
-    background-color: #181f2b;
+    background-color:#0c1524;
 }
 
 .botheader{
@@ -110,17 +110,18 @@ body {
 .aa{
     color: white;
     font-size: 20px;
+    opacity: 50%;
     font-family: 'Raleway';
     padding: 5px;
 }
 /*///////////////////////////////////////////////*//*////////////////////////////*//*////////////////////////////*//*////////////////////////////*/
 .contact_bar{
-    background-color: #212126;
+    background-color: #0C1525;
     display: flex;
+    margin-top: 40px;
     justify-content: center;
     padding: 40px;
-    box-shadow: 2px 2px 12px #fff;
-    border-radius: 15px;
+    box-shadow: 2px 2px 5px #fff;
     text-align: center;
 }
 .contact_area{
@@ -131,7 +132,6 @@ body {
     width: 200px;
     background-color: hsl(176, 68%, 64%);
     margin-top: 20px;
-    box-shadow: -8px 7px 17px gray;
     font-size: 22px;
 }
 
