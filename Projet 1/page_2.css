@@ -84,7 +84,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px   
+    padding: 50px 0; 
 }
 .ihab{
     font-family: 'Raleway';
@@ -93,7 +93,6 @@ body {
 .btn2{
     padding: 20px;
     background-color: hsl(176, 68%, 64%);
-    /*width: 450px;*/
     margin-top: 15px;
     border: none;
     border-radius: 5px;
@@ -280,7 +279,15 @@ a {
 
 .ihab{
     display: block;
+    width: 100%;
    
+}
+.btn2{
+	    width: 100%;
+}
+
+.buttonsection{
+	width: 90%;
 }
 .main{
     background-image: none;
