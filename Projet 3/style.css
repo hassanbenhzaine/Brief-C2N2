@@ -15,7 +15,7 @@ a{
 }
 
 a:hover {
-  color: hotpink;
+  text-decoration: underline;
 }
 .tryitnow{
 	background-color: #fff;
@@ -173,10 +173,21 @@ h1{
 }
 
 
-.round img{
+.round svg{
 	width: 13px;
 	margin:7px;
+	height: auto;
 }
+
+.round:hover *{
+   fill:#fe52c0;
+
+}
+
+.round:hover {
+	   border:1px solid #fe52c0;
+}
+
 
 .supa{
 	margin-left:20px;
