@@ -112,7 +112,6 @@ main{
 .cader{
 	background-color: white;
     position: relative;
-    text-align: center;
     padding: 43px 0 50px 0;
     margin: auto;
     top: 140px;
@@ -206,9 +205,7 @@ main{
   .a img {
 	  height: 20px;
   }
-  a:link {
-	color: #fff;
-  }
+  
   a{
 	text-decoration: none;
     display: block;
@@ -281,7 +278,6 @@ main{
 	.cader {
 		background-color: white;
 		position: relative;
-		text-align: center;
 		padding: 43px 0 50px 0;
 		margin: auto;
 		top: 118px;
@@ -314,7 +310,6 @@ main{
 	.cader {
 		background-color: white;
 		position: relative;
-		text-align: center;
 		padding: 43px 0 50px 0;
 		margin: auto;
 		top: 118px;
