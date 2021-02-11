@@ -18,7 +18,11 @@ a{
 	display: block;
 }
 .centerino a:hover {
-  color: hotpink;
+  font-weight: 700;
+}
+
+.click:hover, .getstarted:hover{
+  cursor: pointer;
 }
 
 header{
@@ -98,7 +102,11 @@ footer{
 	color: #b6bdc5;
 	font-family: 'Raleway';
 }
-
+.navbar span:hover{
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
 
 .navbar{
 	width: 280px;
@@ -138,6 +146,9 @@ footer{
 	margin-top: 25px;
 }
 
+.widther{
+  width: 100px;
+}
 .c { grid-area: c; 
 	display: flex;
     flex-direction: column;
