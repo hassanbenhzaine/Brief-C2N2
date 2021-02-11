@@ -27,7 +27,10 @@ a{
   background-image: linear-gradient(to right, hsl(176deg 68% 64% / 50%) , hsl(198deg 60% 50% / 50%));
 }
 
-
+::placeholder {
+  color: #000;
+  opacity: 1;
+}
 .getstarted, .click{
     border-radius: 30px;
   background-image: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
