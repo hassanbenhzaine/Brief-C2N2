@@ -37,7 +37,9 @@ button{
 
 .bouttona:hover{
 	background-color: rgba(22, 136, 236, 0.384);
+	color:rgb(199, 174, 174);
 }
+
 
 /*main*/
 main{
