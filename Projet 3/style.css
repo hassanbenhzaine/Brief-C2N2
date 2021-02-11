@@ -15,7 +15,7 @@ a{
 }
 
 a:hover {
-  color: hotpink;
+  text-decoration: underline;
 }
 .tryitnow{
 	background-color: #fff;
@@ -23,7 +23,7 @@ a:hover {
 	width: 200px;
 	height: 48px;
 	margin-left: 30px;
-
+cursor: pointer;
 }
 
 
@@ -121,6 +121,7 @@ h1{
 .pink{
 	background-color: #fe52c0;
 	color: #fff;
+	cursor: pointer;
 }
 
 .pink1{
@@ -174,10 +175,21 @@ h1{
 }
 
 
-.round img{
+.round svg{
 	width: 13px;
 	margin:7px;
+	height: auto;
 }
+
+.round:hover *{
+   fill:#fe52c0;
+
+}
+
+.round:hover {
+	   border:1px solid #fe52c0;
+}
+
 
 .supa{
 	margin-left:20px;
@@ -195,13 +207,15 @@ h1{
 	    font-size: 11px;
 
 }
-
+.cen{
+	margin: 0 8%;
+}
 
 .spacez{
 	margin-top: 28px;
 }
 footer{
-	padding:190px 80px 80px 80px;
+	padding:190px 0 80px 0;
 	background-color: #00252e;
 		color:#fff;
 		font-family: 'Open Sans',sans-serif;
@@ -337,11 +351,16 @@ align-items: flex-start;
 
 @media only screen and (max-width: 900px) {
 	.ready{
-		margin:0 80px;
+		margin:0 25px;
 		    width: initial;
 		     padding:75px 53px 50px 53px;
 	}
-
+.cen{
+	margin: 0 25px;
+}
+footer{
+	padding: 220px 0 80px 0;
+}
 	.content{
 		flex-direction:column;
 		    width: 100%;
@@ -386,7 +405,7 @@ align-items: flex-start;
 	}
 
 	.navbar{
-		padding: 80px 30px;
+		padding: 55px 30px 80px 30px;
 	}
 	.tryitnow{
 	width: 125px;
