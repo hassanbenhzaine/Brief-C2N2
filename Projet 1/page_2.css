@@ -51,6 +51,9 @@ body {
     border-radius: 5px;
     background-image: linear-gradient(to right, #5ac4d4 , #3facd5);
     cursor: pointer;
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 700;
 }
 .move{
     margin-right: 20px;
