@@ -31,7 +31,8 @@ a:hover {
 		display: flex;
     align-items: center;
     justify-content: center;
-    	border-radius: 30px;
+	cursor: pointer;
+    border-radius: 30px;
 }
 
 .pink,h2{
@@ -132,6 +133,7 @@ h1{
 
 .pink1:hover, .pink2:hover{
 	background-color: #fe52c094;
+	cursor: pointer;
 }
 
 .pink2{
@@ -387,8 +389,9 @@ align-items: flex-start;
 		padding: 80px 30px;
 	}
 	.tryitnow{
-		width: 125px;
+	width: 125px;
     height: 30px;
+	cursor: pointer;
 	}
 }
 

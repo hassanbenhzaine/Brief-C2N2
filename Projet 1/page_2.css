@@ -297,16 +297,18 @@ a {
     margin-top: 15px;
 }
 
-.buttonsection{
-   
-    
-}
 
 }
 @media  (max-width: 650px){
-
+.topheadr-logo{
+display: flex;
+}
 .botchoises{
     display:block;
+}
+.azert{
+    display: flex;
+    width: 50%;
 }
 .main{
     background-image: none;
