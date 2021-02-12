@@ -86,7 +86,7 @@ body {
     justify-content: center;
     padding: 50px 0; 
 }
-.ihab{
+.hab{
     font-family: 'Raleway';
     display: flex; 
 }
@@ -268,16 +268,18 @@ a {
 @media (max-width: 750px){
     .click{
         width: 160px;
+    
     }
     .topheadr-logo img{
         width: 82%;
 
     }
 }
+
 /*//////////////////////////////////////*/
 @media (max-width: 850px){
 
-.ihab{
+.hab{
     display: block;
     width: 100%;
    
@@ -317,12 +319,20 @@ display: flex;
 .botchoises{
     display:block;
 }
+.click{
+    padding: 0;
+    border-radius: 30px;
+}
 .azert{
     display: flex;
     width: 50%;
 }
 .main{
     background-image: none;
+}
+.move4{
+    padding: 15px;
+    border-radius: 5px;
 }
 }
 
