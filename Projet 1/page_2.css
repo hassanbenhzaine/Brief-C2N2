@@ -122,6 +122,8 @@ body {
     padding: 40px;
     box-shadow: 2px 2px 5px #fff;
     text-align: center;
+    
+
 }
 .contact_area{
     color: white;
@@ -278,7 +280,9 @@ a {
 
 /*//////////////////////////////////////*/
 @media (max-width: 850px){
-
+    .contact_bar{
+        border-radius: 14px;
+    }
 .hab{
     display: block;
     width: 100%;
@@ -333,6 +337,9 @@ display: flex;
 .move4{
     padding: 15px;
     border-radius: 5px;
+}
+.contact_bar{
+    border-radius: 14px;
 }
 }
 
